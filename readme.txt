@@ -26,3 +26,7 @@ Cafeteriaz
 
 
 
+and if anybody can explain the header info and the compression scheme used for P2 maps....
+
+
+
