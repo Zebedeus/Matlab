@@ -12,7 +12,7 @@ level=zeros(64,64,64) + EMPTY;
 team=zeros(64,64,64)  + NEUTRALTEAM;
 
 
-[level team]=LoadWorld(FileName
+[level, team]=LoadWorld(FileName);
 
 
 for x=1:64
