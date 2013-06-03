@@ -1,4 +1,5 @@
-
+% an attempt to make a random world, but did not quite succeeded
+% it was worth the try...
 
 FILENAME='rand.lvl'
 
