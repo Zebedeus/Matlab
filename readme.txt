@@ -25,8 +25,8 @@ Cheers,
 Cafeteriaz
 
 
-
-and if anybody can explain the header info and the compression scheme used for P2 maps....
+Guess I'm done with Infiniminer for now, but if anybody can explain the header info 
+and the compression scheme used for P2 maps....
 
 
 
