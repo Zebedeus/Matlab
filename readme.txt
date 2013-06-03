@@ -21,9 +21,8 @@ team=zeros(64,64,64)  + NEUTRALTEAM;
 Next, fill the cubes with whatever and write them to file using the routine SaveWorld. With LoadWorld you can load an existing world to alter. All the other routines are used to generate objects. Use ClipAdd to add an newly generated object to the world. LinearizeBox is used to strip the void from objects.
 
 
-Guess I'm done with Infiniminer for now, but if anybody can explain the header info 
-and the compression scheme used for P2 maps....
-
+Guess I'm done with Infiniminer for now, it was fun and I wished I was there too in 2009....but if anybody can 
+explain the header info and the compression scheme used for P2 maps.
 
 Cheers,
 
