@@ -23,6 +23,6 @@ Next, fill the cubes with whatever and write them to file using the routine Save
 
 Guess I'm done with Infiniminer for now, it was fun and I wished I was there too when it al started. ...but if anybody can explain the header info and the compression scheme used for P2 maps...
 
-Cheers,
+Cheers guys, proshchaniye!
 
 --Cafeteriaz
