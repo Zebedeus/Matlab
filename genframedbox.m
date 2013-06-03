@@ -22,7 +22,7 @@ Box(1,1:ys,zs)=Value;
 Box(xs,1:ys,zs)=Value;
 
 % linearize
-[x,y,z,v,t,L]=LinearizeBox(Box,Team);
+[x,y,z,v,t,L]=LinearizeBox(Box,Team,1);
 
 
 
