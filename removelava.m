@@ -1,5 +1,6 @@
 function removelava(FileName)
-% load a world from file, and replaces the lava with empty blocks
+% load a world from file, and replaces the lava with empty blocks 
+% since there will always be dudes tempted by the glistering of precious hot molten lava
 
 EMPTY=0;DIRT=1;ORE=2;GOLD=3;DIAMOND=4;STONE=5;LADDER=6;
 TNT=7;JUMP=8;SHOCK=9;BANKRED=10;BANKBLUE=11;BEACONRED=12;
