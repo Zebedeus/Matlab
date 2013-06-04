@@ -110,15 +110,14 @@ end
 
 
 
-% put in a floor
+% put in a soft floor
 for x=1:64
     for z=1:64
         level(x,63,z)=LADDER;
     end
 end
 
-%
-[x,y,z,v,t,L]=LinearizeBox(level,team,1);
+%[x,y,z,v,t,L]=LinearizeBox(level,team,1);
 
 %plot3(x(find(v>0)),z(find(v>0)),-y(find(v>0)),'.')
 
