@@ -86,6 +86,6 @@ end
 
 %plot3(x(find(v>0)),z(find(v>0)),-y(find(v>0)),'.')
 
-SaveWorld(FILENAME,level,team);
+
 
 
