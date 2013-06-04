@@ -50,15 +50,15 @@ Team(2:xs-1,1,2:zs-1)=NEUTRALTEAM;
 
 % removable floor & ropes
 if tm==REDTEAM
-    floor = SOLIDRED;
+    floorv = SOLIDRED;
     ropes = FORCEBLUE;
 else
-    floor = SOLIDBLUE;
+    floorv = SOLIDBLUE;
     ropes = FORCERED;
 end
 
 
-Box(2:xs-1,ys-1,2:zs-1)=floor;
+Box(2:xs-1,ys-1,2:zs-1)=floorv;
 Team(2:xs-1,ys-1,2:zs-1)=tm;
 
 for i=[2 3 (ys-2)]
