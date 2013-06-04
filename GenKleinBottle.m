@@ -82,7 +82,10 @@ for L=1:length(x2)
 end
 
 
-[x,y,z,v,t,L]=LinearizeBox(level,team,1);
+%[x,y,z,v,t,L]=LinearizeBox(level,team,1);
 
 %plot3(x(find(v>0)),z(find(v>0)),-y(find(v>0)),'.')
+
+SaveWorld(FILENAME,level,team);
+
 
