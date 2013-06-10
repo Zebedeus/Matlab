@@ -53,11 +53,11 @@ for i=1:100
     
     if r(1)==3
         
-        [level,team]=ClipAdd(level,team,xo-x,yo+y,zo+z,v,t,L);
+        [level,team]=ClipAdd(level,team,xo-x,yo+y,zo-z,v,t,L);
     end
     if r(1)==4
         
-        [level,team]=ClipAdd(level,team,zo-z,yo+y,xo+x,v,t,L);
+        [level,team]=ClipAdd(level,team,zo-z,yo+y,xo-x,v,t,L);
     end
     
 end
