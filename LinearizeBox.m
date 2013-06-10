@@ -18,29 +18,37 @@ z=zeros(1,L);
 v=zeros(1,L);
 t=zeros(1,L);
 
-i=1;
+i=0;
 for xi=1:xs
     for yi=1:ys
         for zi=1:zs
             if c==1
                 if Box(xi,yi,zi)>EMPTY
+                    i=i+1;
                     x(i) = xi;      
                     y(i) = yi;  
                     z(i) = zi;
                     v(i)=Box(xi,yi,zi);
                     t(i)=Team(xi,yi,zi);
-                    i=i+1;
+                    
                 end
             else
+                 i=i+1;
                 x(i) = xi;      
                 y(i) = yi;  
                 z(i) = zi;
                 v(i)=Box(xi,yi,zi);
                 t(i)=Team(xi,yi,zi);
-                i=i+1;
+               
             end
         end
     end
 end
+L=i;
+x=x(1:L);
+y=y(1:L);
+z=z(1:L);
+v=v(1:L);
+t=t(1:L);
 
 
